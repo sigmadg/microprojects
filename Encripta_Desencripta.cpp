@@ -8,7 +8,7 @@
 #include<time.h>
 #include<math.h>
 //*******************************************************************************************
-//                                Encripta & Desenpcrypta
+//                                Encripta & Desencripta
 //*******************************************************************************************
 void cadenas(){ 
       srand(time(NULL));
@@ -16,7 +16,7 @@ void cadenas(){
       int k=0,g=0;         
       char opcion;
       printf("\n Welcome! ^-^ \n");
-      printf("\nIngrese Los Caracteres: \n");
+      printf("\nIngrese los caracteres: \n");
       fflush(stdin);
       gets(cadena);
 
@@ -35,7 +35,7 @@ scanf("%c",&opcion);
                      cadena[k]+=g;}
                      k++; }while(cadena[k]!='\0');
                      printf("\n Caracter: %s \n \n",cadena);
-                     printf("\n Encryptacion: %d \n \n",g);
+                     printf("\n Encriptacion: %d \n \n",g);
           break;
 //*******************************************************************************************
 //                                Pide La llave 
@@ -47,7 +47,7 @@ scanf("%c",&opcion);
                    k++;
                    }while(cadena[k]!='\0');
 
-          printf("\n Desencryptacion: %s \n",cadena);
+          printf("\n Desencriptacion: %s \n",cadena);
           break;
           
           default: printf("\n Error: \n");
